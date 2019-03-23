@@ -12,6 +12,7 @@
 		176785EF224036A8009F91DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176785ED224036A8009F91DA /* Main.storyboard */; };
 		176785F1224036A9009F91DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176785F0224036A9009F91DA /* Assets.xcassets */; };
 		176785F4224036A9009F91DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176785F2224036A9009F91DA /* LaunchScreen.storyboard */; };
+		176785FC224036F3009F91DA /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 176785FB224036F3009F91DA /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		176785F0224036A9009F91DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		176785F3224036A9009F91DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		176785F5224036A9009F91DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176785FB224036F3009F91DA /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				176785EB224036A8009F91DA /* ViewController.swift */,
 				176785ED224036A8009F91DA /* Main.storyboard */,
 				176785F0224036A9009F91DA /* Assets.xcassets */,
+				176785FB224036F3009F91DA /* Inceptionv3.mlmodel */,
 				176785F2224036A9009F91DA /* LaunchScreen.storyboard */,
 				176785F5224036A9009F91DA /* Info.plist */,
 			);
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				176785EC224036A8009F91DA /* ViewController.swift in Sources */,
+				176785FC224036F3009F91DA /* Inceptionv3.mlmodel in Sources */,
 				176785EA224036A8009F91DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = exampe.com.SeeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = exampe.com.SeeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
